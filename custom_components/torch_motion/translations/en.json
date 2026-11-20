@@ -1,0 +1,20 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "TORCH Motion is already configured.",
+      "no_cameras": "Tuya has no compatible IP-310 TORCH camera loaded."
+    }
+  },
+  "entity": {
+    "event": {
+      "motion": {
+        "name": "Motion detected",
+        "state_attributes": {
+          "event_type": {
+            "state": { "motion": "Motion" }
+          }
+        }
+      }
+    }
+  }
+}

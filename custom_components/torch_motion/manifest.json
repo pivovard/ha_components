@@ -1,0 +1,12 @@
+{
+  "domain": "torch_motion",
+  "name": "TORCH Motion",
+  "codeowners": ["@pivovard"],
+  "config_flow": true,
+  "dependencies": ["tuya"],
+  "documentation": "https://github.com/pivovard/ha_components#readme",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/pivovard/ha_components/issues",
+  "version": "0.1.0"
+}

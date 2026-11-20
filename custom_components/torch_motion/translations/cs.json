@@ -1,0 +1,20 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Integrace TORCH Motion už je nastavená.",
+      "no_cameras": "Integrace Tuya zatím nemá načtenou kompatibilní kameru IP-310 TORCH."
+    }
+  },
+  "entity": {
+    "event": {
+      "motion": {
+        "name": "Detekce pohybu",
+        "state_attributes": {
+          "event_type": {
+            "state": { "motion": "Pohyb" }
+          }
+        }
+      }
+    }
+  }
+}
